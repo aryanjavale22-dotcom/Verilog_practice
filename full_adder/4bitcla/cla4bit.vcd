@@ -1,0 +1,108 @@
+$date
+	Fri Aug 07 16:40:56 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 4 ! sum [3:0] $end
+$var wire 1 " cout $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % cin $end
+$scope module dut $end
+$var wire 4 & G [3:0] $end
+$var wire 4 ' P [3:0] $end
+$var wire 4 ( a [3:0] $end
+$var wire 4 ) b [3:0] $end
+$var wire 1 * c1 $end
+$var wire 1 + c2 $end
+$var wire 1 , c3 $end
+$var wire 1 % cin $end
+$var wire 1 " cout $end
+$var wire 4 - sum [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx -
+x,
+x+
+x*
+bx )
+bx (
+bx '
+bx &
+x%
+bx $
+bx #
+x"
+bx !
+$end
+#5
+1"
+1,
+1+
+b0 !
+b0 -
+1*
+b1 &
+b1110 '
+0%
+b1101 $
+b1101 )
+b11 #
+b11 (
+#10
+0+
+1"
+0*
+b11 !
+b11 -
+b100 &
+b1010 '
+1%
+b110 $
+b110 )
+b1100 #
+b1100 (
+#15
+1+
+1*
+b1010 !
+b1010 -
+b1010 &
+b101 '
+b1010 $
+b1010 )
+b1111 #
+b1111 (
+#20
+0"
+b1000 !
+b1000 -
+b1 &
+b110 '
+0%
+b11 $
+b11 )
+b101 #
+b101 (
+#25
+1"
+b1110 !
+b1110 -
+b1111 &
+b0 '
+b1111 $
+b1111 )
+b1111 #
+b1111 (
+#35
