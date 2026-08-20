@@ -1,0 +1,93 @@
+$date
+	Thu Aug 06 22:15:38 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! zero $end
+$var wire 4 " y [3:0] $end
+$var wire 1 # carry $end
+$var reg 4 $ a [3:0] $end
+$var reg 4 % b [3:0] $end
+$var reg 3 & sel [2:0] $end
+$scope module dut $end
+$var wire 4 ' a [3:0] $end
+$var wire 4 ( b [3:0] $end
+$var wire 3 ) sel [2:0] $end
+$var reg 1 # carry $end
+$var reg 4 * y [3:0] $end
+$var reg 1 ! zero $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+x#
+bx "
+x!
+$end
+#5
+0#
+b0 "
+b0 *
+b1100 %
+b1100 (
+b11 $
+b11 '
+#10
+b1 "
+b1 *
+b0 &
+b0 )
+#15
+b1111 "
+b1111 *
+b1 &
+b1 )
+#20
+b0 "
+b0 *
+b10 &
+b10 )
+#25
+b1111 "
+b1111 *
+b11 &
+b11 )
+#30
+1#
+b111 "
+b111 *
+b100 &
+b100 )
+#35
+0#
+b1111 "
+b1111 *
+b101 &
+b101 )
+#40
+b11 "
+b11 *
+b110 &
+b110 )
+#45
+b110 "
+b110 *
+b111 &
+b111 )
+#55

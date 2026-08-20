@@ -1,0 +1,67 @@
+$date
+	Tue Aug 11 15:25:33 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 8 ! p [7:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 4 # b [3:0] $end
+$scope module dut $end
+$var wire 4 $ a [3:0] $end
+$var wire 4 % b [3:0] $end
+$var wire 8 & p3 [7:0] $end
+$var wire 8 ' p2 [7:0] $end
+$var wire 8 ( p1 [7:0] $end
+$var wire 8 ) p [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx )
+b0xxxx (
+b0xxxx0 '
+b0xxxx00 &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#10
+b11001 !
+b11001 )
+b101 (
+b0 '
+b10100 &
+b1101 #
+b1101 %
+b101 "
+b101 $
+#20
+b1100 (
+b111100 !
+b111100 )
+b110000 &
+b101 #
+b101 %
+b1100 "
+b1100 $
+#30
+b0 (
+b0 !
+b0 )
+b0 &
+b1010 #
+b1010 %
+b0 "
+b0 $
+#35

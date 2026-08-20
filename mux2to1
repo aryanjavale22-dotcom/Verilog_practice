@@ -1,0 +1,7 @@
+module mux2to1(input [0:1]I,s,output y);
+wire sbar,l,m;
+not n1(sbar,s);
+and a1(l,sbar,I0);
+and a2(m,s,I1);
+or o1(y,l,m);
+end module
