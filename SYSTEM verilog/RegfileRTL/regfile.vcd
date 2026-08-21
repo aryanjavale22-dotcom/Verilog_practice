@@ -1,0 +1,86 @@
+$date
+	Thu Aug 20 21:17:09 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 8 ! read_data2 [7:0] $end
+$var wire 8 " read_data1 [7:0] $end
+$var reg 1 # clk $end
+$var reg 3 $ read_addr1 [2:0] $end
+$var reg 3 % read_addr2 [2:0] $end
+$var reg 3 & write_addr [2:0] $end
+$var reg 8 ' write_data [7:0] $end
+$var reg 1 ( write_en $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 3 ) read_add1 [2:0] $end
+$var wire 3 * read_add2 [2:0] $end
+$var wire 3 + write_add [2:0] $end
+$var wire 8 , write_data [7:0] $end
+$var wire 1 ( write_en $end
+$var parameter 32 - depth $end
+$var parameter 32 . width $end
+$var reg 8 / read_data1 [7:0] $end
+$var reg 8 0 read_data2 [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 .
+b1000 -
+$end
+#0
+$dumpvars
+bx 0
+bx /
+b0 ,
+bz +
+bz *
+bz )
+0(
+b0 '
+b0 &
+b0 %
+b0 $
+0#
+bx "
+bx !
+$end
+#5
+1#
+#10
+0#
+b10101010 '
+b10101010 ,
+b1 &
+1(
+#15
+1#
+#20
+0#
+b1010101 '
+b1010101 ,
+b10 &
+#25
+1#
+#30
+0#
+b10 %
+b1 $
+0(
+#35
+1#
+#40
+0#
+b1 %
+b10 $
+#45
+1#
+#50
+0#
